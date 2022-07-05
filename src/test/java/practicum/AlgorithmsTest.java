@@ -114,7 +114,7 @@ public class AlgorithmsTest {
     @Test
     public void isPalindromTest() {
         assertTrue( Algorithms.isPalindrom("топот"));
-        assertFalse(Algorithms.isPalindrom("ропот"));
+        assertFalse(Algorithms.isPalindrom("ропот")); //to false
         assertTrue(Algorithms.isPalindrom("А роза упала на лапу Азора"));
         assertTrue(Algorithms.isPalindrom("а роза упала на лапу Азора"));
         assertTrue(Algorithms.isPalindrom("Ад - жажда!"));
